@@ -1,0 +1,319 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+}
+
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* ====================header ==============*/
+
+.header {
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: auto;
+}
+.logo-image {
+}
+.nav {
+    margin-right: 30px;
+}
+.nav-list {
+    display: flex;
+    gap: 28px;
+}
+.nav-link {
+  font-size: 14px;
+  display: block;
+  padding: 28px 0;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #bbf330;
+}
+
+.header-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 30px;
+  padding: 6px 17px;
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+  cursor: pointer;
+  border: none;
+}
+/*======= hero===== */
+.hero {
+    padding-top: 14px;
+    padding-bottom: 69px;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 143px;
+}
+.hero-wrapper {
+    max-width: 511px;
+}
+.title {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+.hero-text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.hero-btn {
+    font-weight: 500;
+font-size: 13px; 
+line-height: 1.5;
+border-radius: 30px;
+padding: 6px 17px;
+min-width: 98px;
+height: 32px;
+border: none;
+cursor: pointer;
+background-color: #bbf330;
+}
+/* ===================offering ===========*/
+.offering {
+  background: #ffe550;
+  padding-top: 113px;
+  padding-bottom: 124px;
+}
+.offering-image {
+}
+.offering-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.offering-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.offering-list {
+  font-size: 18px;
+  line-height: 1.4;
+  display: flex;
+  gap: 67px;
+}
+.offering-item {
+  font-size: 14px;
+  line-height: 1.5;
+  width: calc((100%-67px) / 2);
+}
+
+.offering-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  background: #fff;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 106px;
+  height: 40px;
+  cursor: pointer;
+}
+.offering-subtitle {
+}
+.offering-item-text {
+}
+
+.offering-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.offering-text-wrap {
+  max-width: 573px;
+}
+ /*========== favorites====== */
+
+.favorites {
+    padding-top: 120px;
+    padding-bottom: 104px;
+}
+.container {
+}
+.favorites-title {
+font-size: 42px;
+text-align: center;
+margin-bottom: 20px;
+}
+.favorites-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.favorites-list {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+   justify-content: center;
+
+    
+}
+.favorites-item {
+    border: 16px solid #ffe550;
+    border-radius: 197px;
+    justify-content: center;
+    
+
+}
+.favorites-image {
+}
+/* ==============reviews ===========*/
+.review-container {
+  padding-top: 140px;
+  padding-bottom: 126px;
+  background-color: #ffe550;
+}
+
+.reviews-title {
+  font-weight: 700;
+font-size: 42px;
+color: #2c2c2c;
+margin-bottom: 20px;
+}
+
+.reviews-text {
+  font-size: 16px;
+color: #2c2c2c;
+margin-bottom: 32px;
+}
+.reviews-list {
+  display: flex;
+  gap: 139px;
+
+}
+.review-wrap {
+/* margin-top: 59px;
+margin-bottom: 41px; */
+background-color: #fff;
+border-radius: 0 30px 30px 30px;
+width: 501px;
+height: 231px;
+}
+.reviews-item {
+  margin-top: 59px;
+margin-bottom: 41px;
+}
+.reviews-item-text {
+  font-weight: 700;
+font-size: 18px;
+color: #2c2c2c;
+}
+.reviews-item-icon {
+}
+.reviews-item-name {
+}
+.reviews-item-position {
+}
+
+/* ======offer============ */
+.offer {
+}
+.offer-title {
+}
+.offer-text {
+}
+.offer-form {
+}
+.offer-form-input {
+}
+.offer-image {
+}
+
+/* ===========footer======== */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 205px;
+  background-image: url(../images/footer.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.footer-logo {
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+}
+.footer-text {
+}
+.footer-input {
+}
+.footer-btn {
+}
+.footer-big-text {
+}
+.footer-list {
+  display: flex;
+gap: 20px;
+}
+.footer-list-item {
+}
+.footer-list-link {
+}
+.footer-footer {
+}
